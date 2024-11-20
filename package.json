@@ -7,7 +7,9 @@
     "gitcommit": "npm run add && npm run commit && npm run push",
     "add": "git add .",
     "commit": "git commit -m \"added new changes via npm\"",
-    "push": "git push origin main"
+    "push": "git push origin main",
+    "astro": "astro",
+    "astrorun": "astro dev"
   },
   "repository": {
     "type": "git",
@@ -19,12 +21,40 @@
     "punchly",
     "runchly",
     "lunchly",
-    "skibidunchly"
+    "parody"
   ],
   "author": "Da CPUs <da.cpus@gmail.com> (BOXEL-REBOUND)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/BOXEL-REBOUND/Brunchly/issues"
   },
-  "homepage": "https://github.com/BOXEL-REBOUND/Brunchly#readme"
+  "homepage": "https://github.com/BOXEL-REBOUND/Brunchly#readme",
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/node": "^8.3.4",
+    "@astrojs/tailwind": "^5.1.1",
+    "@fastify/basic-auth": "^6.0.1",
+    "@fastify/compress": "^8.0.1",
+    "@fastify/middie": "^9.0.2",
+    "@fastify/static": "^8.0.2",
+    "astro": "^4.16.2",
+    "fastify": "^5.0.0",
+    "js-cookie": "^3.0.5",
+    "lucide-astro": "^0.453.0",
+    "mime": "^4.0.4",
+    "sharp": "^0.33.5",
+    "tailwindcss": "^3.4.13",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.3",
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^22.8.2",
+    "prettier": "^3.3.3",
+    "prettier-plugin-astro": "^0.14.1"
+  },
+  "resolutions": {
+    "cookie": "^0.7.0"
+  }
 }
