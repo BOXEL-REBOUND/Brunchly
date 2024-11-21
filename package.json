@@ -1,7 +1,7 @@
 {
   "name": "brunchly",
   "version": "1.0.0",
-  "description": "Ever heard of lunchly? The weird moldy, drippy, just plain disgusting food? Well, look at this new competitor. From the deepest of the depths to the rise of the king, Brunchly! (This is a parody)",
+  "description": "Ever heard of the company by Log Paul Bunyan and KYS? The weird moldy, drippy, just plain disgusting food? Well, look at this new competitor. From the deepest of the depths to the rise of the king, Brunchly! (This is a parody)",
   "main": "index.js",
   "scripts": {
     "gitcommit": "npm run add && npm run commit && npm run push",
@@ -20,10 +20,14 @@
     "crunchly",
     "punchly",
     "runchly",
-    "lunchly",
+    "bunchly",
     "parody"
   ],
-  "author": "Da CPUs <da.cpus@gmail.com> (BOXEL-REBOUND)",
+  "author": {
+    "name": "Da CPUs, zPlayzXD, B2W_Steamsige",
+    "email": "da.cpus@gmail.com, zplayz@gmail.com, theivyuuuuuuure@gmail.com",
+    "url": "https://github.com/BOXEL-REBOUND, https://www.youtube.com/channel/UCBAjRV-v768jCHV78U2C2xA, https://www.twitch.tv/zplayzxd_yt"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/BOXEL-REBOUND/Brunchly/issues"
