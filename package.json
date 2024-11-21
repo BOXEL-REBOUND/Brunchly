@@ -6,7 +6,7 @@
   "scripts": {
     "gitcommit": "npm run add && npm run commit && npm run push",
     "add": "git add .",
-    "commit": "git commit -m \"added new changes via npm\"",
+    "commit": "git commit",
     "push": "git push origin main",
     "astro": "astro",
     "astrorun": "astro dev"
